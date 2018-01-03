@@ -1,7 +1,13 @@
 import { Component } from '@angular/core';
+import {ChatService} from "./services/chat.service";
+//import 'bootstrap';
+//import 'jquery.js';
 
 @Component({
   selector: 'my-app',
-  template: `<h1>Hello {{name}}</h1>`,
+  templateUrl: './app.component.html',
+  providers: [ChatService]
 })
-export class AppComponent  { name = 'Angular'; }
+export class AppComponent  {
+
+}

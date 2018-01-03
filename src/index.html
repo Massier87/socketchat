@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Angular QuickStart</title>
+    <title>SocketChat</title>
     <base href="/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
-
+    <!--<link rel="stylesheet" type="text/css" ref="library/bootstrap/dist/css/bootstrap.css">-->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="styles.css">-->
+    <!--<script src="vendor/socket.io-client/socket.io.js"></script>-->
+    <script src="node_modules/socket.io-client/dist/socket.io.js"></script>
     <!-- Polyfill(s) for older browsers -->
     <script src="node_modules/core-js/client/shim.min.js"></script>
 
@@ -20,6 +23,10 @@
   </head>
 
   <body>
-    <my-app>Loading AppComponent content here ...</my-app>
+    <my-app>Loading AppComponent content here ... </my-app>
+
+   <!-- <script src="library/jquery/dist/jquery.js"></script>
+    <script src="library/bootstrap/dist/js/bootstrap.js"></script> -->
+
   </body>
 </html>
